@@ -62,3 +62,27 @@
     width: 100%;
     left: 0;
 }
+
+/* Offer Section */
+
+.offer-section {
+    background-image: url("https://placehold.co/600x200?text=offer-image");
+    /* background-image: url("/images/runnyrem-LfqmND-hym8-unsplash.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    /* opacity: 0.5; */
+}
+
+.offer-section button {
+    position: relative;
+    /* left: 1%; */
+    top: 77%;
+    display: block;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
