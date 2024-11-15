@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: rgb(240, 82, 82);
+    /* text-decoration: none; */
+}
+body{
+    background: rgb(251, 247, 247);
+}
+
+
+/* navbar styling */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+.navbar img {
+    margin: 0.5em;
+}
+
+/* form styling */
+
+.loginform{
+    display: flex;
+    justify-content: center;
+}
+
+.loginform form{
+    width: 30%;
+    margin: 3em;
+    padding: 1em 1.7em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+.loginform form h2{
+    margin: 1em 0;
+    text-align: center;
+}
+
+.loginform form p{
+    margin-bottom: 1.2em;
+    text-align: center;
+}
+
+.loginform form p span{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(234, 86, 86);
+}
+
+.input-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.input-button input{
+    width: 100%;
+    padding: 0.6em;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 0.5em 0;
+    font-size: 0.9em;
+}
+
+.input-button input:focus{
+    /* border: 1px solid blue; */
+    outline: 1px solid black;
+}
+
+.input-button button{
+    padding: 0.3em;
+    background-color: #3498db;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    margin: 1em 0;
+    padding: 0.7em;
+    font-weight: 600;
+    transition: transform 0.1s ease-in-out;
+}
+
+.input-button button:active {
+    transform: scale(0.9);
+}

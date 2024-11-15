@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    box-sizing: content-box;
+}
+
+label{
+    font-weight: 500;
+}
+
+body{
+    background: rgb(251, 247, 247);
+}
+
+/* nav style */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+.navbar img {
+    margin: 0.5em;
+}
+
+/* container styling */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    margin: 2rem;
+    padding: 2em;
+}
+
+.center form{
+    margin: 1.6em 0;
+}
+
+.center form label{
+    display: block;
+    margin: 0.5em 0;
+}
+
+.center form input{
+    width: 100%;
+    padding: 0.6em;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.center form button{
+    font-weight: 500;
+    width: 100%;
+    padding: 0.7em;
+    margin: 2em 0;
+    background: #3498db;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.1s ease-in-out;
+}
+
+.center button:active {
+    transform: scale(0.9);
+}
+
+.center form p{
+    text-align: center;
+    font-weight:500;
+    margin-bottom: 0;
+}
+
+.center form p a{
+    color: rgb(243, 81, 81);
+}
